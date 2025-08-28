@@ -227,7 +227,7 @@ export default function PortfolioTable({ stocks }: PortfolioTableProps) {
   });
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen p-6">
+    <div className="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen md:p-6">
       <div className="">
         {/* Header */}
         <div className="mb-8">
@@ -292,7 +292,7 @@ export default function PortfolioTable({ stocks }: PortfolioTableProps) {
 
           {/* Pagination Controls */}
           <div className="bg-gray-50 border-t border-gray-200 px-6 py-4">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center flex-col md:flex-row justify-between">
               <div className="text-sm text-gray-600">
                 Showing {table.getState().pagination.pageIndex * table.getState().pagination.pageSize + 1} to{" "}
                 {Math.min(

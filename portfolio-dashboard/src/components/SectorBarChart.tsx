@@ -87,18 +87,11 @@ export default function SectorBarChart({ sectors }: SectorBarChartProps) {
             </div>
           </div>
           
-          {/* Summary Stats */}
-          <div className="text-right">
-            <div className="text-2xl font-bold">
-              {totalGainLoss >= 0 ? '+' : ''}₹{totalGainLoss.toLocaleString()}
-            </div>
-            
-          </div>
         </div>
       </div>
 
       {/* Chart Section */}
-      <div className="p-6">
+      <div className="md:p-6">
         
         
 

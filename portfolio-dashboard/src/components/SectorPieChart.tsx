@@ -99,7 +99,7 @@ export default function SectorPieChart({ sectors }: SectorPieChartProps) {
         </div>
       </div>
       {/* Chart Container */}
-      <div className="p-4">
+      <div className="md:p-4">
         <div className="relative bg-white rounded-xl shadow-inner border border-gray-100 ">
         <ResponsiveContainer width="100%" height={400}>
           <PieChart>

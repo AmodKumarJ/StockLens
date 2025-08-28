@@ -360,7 +360,7 @@ export default function Home() {
       </div>
 
       <PortfolioTable stocks={data.portfolio} />
-      <div className="bg-gradient-to-br from-gray-50 to-blue-50 p-6 grid grid-cols-1 md:grid-cols-2 gap-6 ">
+      <div className="bg-gradient-to-br from-gray-50 to-blue-50 md:p-6 grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 md:mt-0">
         <SectorPieChart sectors={data.sectors} />
         <SectorBarChart sectors={data.sectors} />
       </div>
