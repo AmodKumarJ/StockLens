@@ -40,35 +40,27 @@ A full-stack stock portfolio tracker that reads your Excel portfolio, fetches li
 
 Follow these steps to run the project locally:
 
-### 1. Clone the repository
+## 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/stockvision.git
-cd stockvision ```bash
+cd stockvision
 
-###
-
-Backend
+## 2.Install dependecies
+###Backend
 cd backend
 npm install
 
 
-Frontend
-
+###Frontend
 cd ../frontend
 npm install
 
-3 Start the servers
+## 3.Start the servers
 
-Backend
-
+###Backend
 npm run dev
-
-
 Backend will run on: http://localhost:3001
 
-Frontend
-
+###Frontend
 npm run dev
-
-
 Frontend will run on: http://localhost:3000
