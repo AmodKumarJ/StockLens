@@ -1,4 +1,4 @@
-# StockVision 📊
+<img width="1920" height="2188" alt="image" src="https://github.com/user-attachments/assets/b4589fa7-05dc-4182-8a75-3f07ae49d11d" /># StockVision 📊
 
 A full-stack stock portfolio tracker that reads your Excel portfolio, fetches live stock data from Yahoo Finance & Google Finance, and visualizes insights with interactive charts.
 
@@ -34,3 +34,4 @@ A full-stack stock portfolio tracker that reads your Excel portfolio, fetches li
 ---
 
 ## 📂 Project Structure
+<img width="1920" height="2188" alt="localhost-3000" src="https://github.com/user-attachments/assets/0468ed16-3c73-4bc4-af96-d7a551bdd68a" />
