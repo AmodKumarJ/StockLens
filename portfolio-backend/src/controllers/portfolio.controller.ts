@@ -9,7 +9,7 @@ const FILE_PATH = path.join(__dirname, "../../portfolio.xlsx");
 
 
 const STOCK_SYMBOL_MAPPING: { [key: string]: string } = {
-  // Financial Sector
+  // Financial Sector changes added here
   "HDFC Bank": "HDFCBANK",
   "Bajaj Finance": "BAJFINANCE",
   "ICICI Bank": "ICICIBANK",
