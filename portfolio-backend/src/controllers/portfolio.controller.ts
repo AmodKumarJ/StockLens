@@ -8,7 +8,7 @@ import { Stock, SectorSummary } from "../models/stock.model";
 const FILE_PATH = path.join(__dirname, "../../portfolio.xlsx");
 
 
-// MAPPING FOR STOCK SYMBOLS
+// MAPPING FOR STOCK SYMBOLS changes
 
 const STOCK_SYMBOL_MAPPING: { [key: string]: string } = {
   // Financial Sector changes added here
@@ -26,6 +26,7 @@ const STOCK_SYMBOL_MAPPING: { [key: string]: string } = {
   "BLS E-Services": "BLSE",
   "Tanla": "TANLA",
   "Tanla ": "TANLA", // Handle the space
+
   
   // Consumer Sector
   "Dmart": "DMART",
