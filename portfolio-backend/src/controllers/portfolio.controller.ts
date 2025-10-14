@@ -8,7 +8,7 @@ import { Stock, SectorSummary } from "../models/stock.model";
 const FILE_PATH = path.join(__dirname, "../../portfolio.xlsx");
 
 
-// MAPPING FOR STOCK SYMBOLS changes 3
+// MAPPING FOR STOCK SYMBOLS changes 4
 
 const STOCK_SYMBOL_MAPPING: { [key: string]: string } = {
   // Financial Sector changes added here
